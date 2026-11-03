@@ -1,0 +1,61 @@
+{
+  "verifiedAt": "2026-10-29T17:05:45.110Z",
+  "executable": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/release/desktop/CALC Pro-darwin-arm64/CALC Pro.app/Contents/MacOS/CALC Pro",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "checks": [
+    {
+      "name": "packaged application launches from bundled assets without a web server",
+      "status": "passed"
+    },
+    {
+      "name": "sandboxed renderer has no Node integration or preload bridge",
+      "status": "passed"
+    },
+    {
+      "name": "native menus are installed",
+      "status": "passed"
+    },
+    {
+      "name": "scientific keyboard math, tiny values and errors work",
+      "status": "passed"
+    },
+    {
+      "name": "system clipboard copy and paste work",
+      "status": "passed"
+    },
+    {
+      "name": "graphing uses real functions, interactive viewport and PNG export",
+      "status": "passed"
+    },
+    {
+      "name": "programmer signed HEX and exact 64-bit arithmetic work",
+      "status": "passed"
+    },
+    {
+      "name": "unit conversion works from bundled local constants",
+      "status": "passed"
+    },
+    {
+      "name": "complex numbers and matrix operations work in the packaged app",
+      "status": "passed"
+    },
+    {
+      "name": "desktop install control accurately explains installed status",
+      "status": "passed"
+    },
+    {
+      "name": "history, memory and preferences persist across a full app relaunch",
+      "status": "passed"
+    },
+    {
+      "name": "local protocol rejects bundle traversal",
+      "status": "passed"
+    },
+    {
+      "name": "packaged app produces no unhandled renderer or console errors",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

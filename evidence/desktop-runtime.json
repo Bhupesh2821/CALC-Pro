@@ -1,0 +1,9 @@
+{
+  "version": "45.1.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "officialArchive": "electron-v45.1.0-darwin-arm64.zip",
+  "sha256": "002b71efcf90e247317d3da486f2d4e51860e9c2889d49f33e229ab2268b0f3b",
+  "verifiedAgainst": "Pinned electron/checksums.json",
+  "verifiedAt": "2026-10-29T02:39:08.690Z"
+}

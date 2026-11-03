@@ -1,0 +1,76 @@
+{
+  "version": "2.0.0",
+  "verifiedReleaseDate": "2026-10-30",
+  "unit": {
+    "passed": 407,
+    "failed": 0
+  },
+  "browsers": {
+    "chromium": {
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0
+    },
+    "firefox": {
+      "passed": 16,
+      "skipped": 5,
+      "failed": 0
+    },
+    "webkit": {
+      "passed": 16,
+      "skipped": 5,
+      "failed": 0
+    },
+    "iphone": {
+      "passed": 16,
+      "skipped": 5,
+      "failed": 0
+    },
+    "android": {
+      "passed": 21,
+      "skipped": 0,
+      "failed": 0
+    },
+    "ipad": {
+      "passed": 16,
+      "skipped": 5,
+      "failed": 0
+    }
+  },
+  "browserTotals": {
+    "startTime": "2026-10-29T17:07:53.457Z",
+    "duration": 224639.938,
+    "expected": 106,
+    "skipped": 20,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "desktop": {
+    "passed": 13,
+    "failed": 0,
+    "platform": "macOS arm64",
+    "signature": "ad-hoc",
+    "notarized": false
+  },
+  "sourceChecks": {
+    "eslint": "passed",
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "lockfile": "validated offline"
+  },
+  "offline": {
+    "allModes": "passed in Chromium desktop and Android profile",
+    "updateLifecycle": "passed",
+    "subdirectoryScope": "passed"
+  },
+  "productionAudit": {
+    "advisories": 0
+  },
+  "developmentAudit": {
+    "low": 4,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0
+  },
+  "physicalWindowsAndroidIOSDevicesVerified": false
+}

@@ -1,0 +1,5102 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/playwright.config.ts",
+    "rootDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "iphone",
+        "name": "iphone",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "android",
+        "name": "android",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "ipad",
+        "name": "ipad",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "chromium",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "snapshotDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "allow",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "firefox",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "snapshotDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "allow",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "webkit",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "snapshotDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "allow",
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1792,
+            "height": 1120
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "iphone",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "snapshotDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "allow",
+          "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 390,
+            "height": 664
+          },
+          "screen": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 3,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "iphone"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "android",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "snapshotDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "allow",
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Mobile Safari/537.36",
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "android"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "ipad",
+        "testDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "snapshotDir": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "serviceWorkers": "allow",
+          "userAgent": "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+          "viewport": {
+            "width": 810,
+            "height": 1080
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "ipad"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "evidence/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 3,
+    "webServer": {
+      "command": "npm run preview",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "app.spec.ts",
+      "file": "app.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "scientific calculation, keyboard editing and numerical regressions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2881,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:07:55.400Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-961781ef85e3175a38f9",
+          "file": "app.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "every scientific function button and keypad control is wired to real math",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7560,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:07:55.412Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-82793df95cbb7542ceb5",
+          "file": "app.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "history, favorites, result reuse, memory and preferences survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2902,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:07:55.411Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-a8d8515dbe867e9f2041",
+          "file": "app.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "all modes have responsive layouts and no runtime or console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2393,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:07:58.720Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-904d39cc22b56a11ef06",
+          "file": "app.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "stored corrupt data and blocked storage do not crash calculator modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1278,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:07:58.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-bc51d2de2867acfb89ff",
+          "file": "app.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "accessible names, focus indicators and theme contrast pass automated checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 9944,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:00.047Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-79dd00f1d9bc543fd203",
+          "file": "app.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "production manifest, icons, cached reload and all core modes work offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1417,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:01.135Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-2e349392b3e5f1af8fbc",
+          "file": "app.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "clipboard copy and native paste have working fallbacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 667,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:02.566Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-023b51898b752b9256ae",
+          "file": "app.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "scientific calculation, keyboard editing and numerical regressions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7653,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:13.884Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-3887f0b5e39fbc094834",
+          "file": "app.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "every scientific function button and keypad control is wired to real math",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 22575,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:14.138Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-423cb39142388a8c7b23",
+          "file": "app.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "history, favorites, result reuse, memory and preferences survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:15.678Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-6387bbbc279e3b103ff1",
+          "file": "app.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "all modes have responsive layouts and no runtime or console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:23.457Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-45bdbae83453c1575d6b",
+          "file": "app.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "stored corrupt data and blocked storage do not crash calculator modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3445,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:26.616Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-6bc6c97c21198e7e65ac",
+          "file": "app.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "accessible names, focus indicators and theme contrast pass automated checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 42856,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:30.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-387d936f60ac1ba32123",
+          "file": "app.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "production manifest, icons, cached reload and all core modes work offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 73,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1143,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:31.321Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 73,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-319053818368fa013e24",
+          "file": "app.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "clipboard copy and native paste have working fallbacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 80,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 917,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:32.697Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 80,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-824ddc1480c5bb038e96",
+          "file": "app.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "scientific calculation, keyboard editing and numerical regressions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5655,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:14.600Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-2601deee726331dfee55",
+          "file": "app.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "every scientific function button and keypad control is wired to real math",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 18715,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:14.801Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-f126510aafea3b9846fd",
+          "file": "app.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "history, favorites, result reuse, memory and preferences survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5826,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:15.971Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-a12e5187d0fb6945fb83",
+          "file": "app.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "all modes have responsive layouts and no runtime or console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5743,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:22.027Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-a960b2a31701e4753965",
+          "file": "app.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "stored corrupt data and blocked storage do not crash calculator modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3187,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:22.778Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-3be430a7f0145f439511",
+          "file": "app.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "accessible names, focus indicators and theme contrast pass automated checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18542,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:26.017Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-f0d82819098d0838455c",
+          "file": "app.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "production manifest, icons, cached reload and all core modes work offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 73,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 1267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:27.822Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 73,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-d0df33e192f9902ed174",
+          "file": "app.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "clipboard copy and native paste have working fallbacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 80,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:29.111Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 80,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-c1a5f2f77c6c6b14fa5d",
+          "file": "app.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "scientific calculation, keyboard editing and numerical regressions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6164,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:52.690Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-cf258d876a124020b74a",
+          "file": "app.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "every scientific function button and keypad control is wired to real math",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15110,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:52.685Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-6c55e04842461eedae12",
+          "file": "app.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "history, favorites, result reuse, memory and preferences survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6460,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:52.758Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-497ba3c3a188158c7527",
+          "file": "app.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "all modes have responsive layouts and no runtime or console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4821,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:59.488Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-890ea667a74516457b27",
+          "file": "app.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "stored corrupt data and blocked storage do not crash calculator modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1987,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:59.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-940448264391bb95e27e",
+          "file": "app.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "accessible names, focus indicators and theme contrast pass automated checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 13475,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:01.930Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-a89ae60b13f75a43aabd",
+          "file": "app.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "production manifest, icons, cached reload and all core modes work offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 73,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 823,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:04.336Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 73,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-20cdb9a98330e0928128",
+          "file": "app.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "clipboard copy and native paste have working fallbacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 80,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 720,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:05.181Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 80,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-bac054c15de1cdb59331",
+          "file": "app.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "scientific calculation, keyboard editing and numerical regressions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2645,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:20.645Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-e288d3d89e7d415217d9",
+          "file": "app.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "every scientific function button and keypad control is wired to real math",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10961,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:20.773Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-866c7d05e811bd86c879",
+          "file": "app.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "history, favorites, result reuse, memory and preferences survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2651,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:20.947Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-5f55a9e275c22f7b60fb",
+          "file": "app.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "all modes have responsive layouts and no runtime or console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4474,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:23.719Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-38628b6099e15b689341",
+          "file": "app.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "stored corrupt data and blocked storage do not crash calculator modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1782,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:23.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-5d7dff271052a157c0ff",
+          "file": "app.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "accessible names, focus indicators and theme contrast pass automated checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 15648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:25.804Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-3fa430a8cc367723ce38",
+          "file": "app.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "production manifest, icons, cached reload and all core modes work offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2798,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:28.211Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-4f6ea6847b9a0106e844",
+          "file": "app.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "clipboard copy and native paste have working fallbacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1321,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:31.033Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-f72c22257e0a25ebba0b",
+          "file": "app.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "scientific calculation, keyboard editing and numerical regressions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6936,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:48.886Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-7be2afa443496cd64351",
+          "file": "app.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "every scientific function button and keypad control is wired to real math",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 21308,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:50.133Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-7ba71475254e724aa5d2",
+          "file": "app.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "history, favorites, result reuse, memory and preferences survive reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:51.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-1499e2c67a602c96353f",
+          "file": "app.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "all modes have responsive layouts and no runtime or console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:56.633Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-c595ead0e8edc69f1588",
+          "file": "app.spec.ts",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "stored corrupt data and blocked storage do not crash calculator modes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3326,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:58.490Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-72ea3de7f226b5c76923",
+          "file": "app.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "accessible names, focus indicators and theme contrast pass automated checks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 27034,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:01.838Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-e32449acab2ba26e73cd",
+          "file": "app.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "production manifest, icons, cached reload and all core modes work offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 73,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 895,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:03.734Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Service-worker offline verification runs in Chromium; other engines are covered by online interaction tests.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 73,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-37da870ad82c5731b010",
+          "file": "app.spec.ts",
+          "line": 72,
+          "column": 1
+        },
+        {
+          "title": "clipboard copy and native paste have working fallbacks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                    "line": 80,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 844,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:04.825Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Clipboard permissions differ by engine; actual read/write covered in Chromium.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/app.spec.ts",
+                        "line": 80,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c31ff144dc4fee3acd0a-26eb6966ec1872c2ef44",
+          "file": "app.spec.ts",
+          "line": 79,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "modes.spec.ts",
+      "file": "modes.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "graph functions evaluate real user expressions, reject domains and persist edits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1376,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:03.267Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-5d4fe42a465aaf73c65a",
+          "file": "modes.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "graph zoom, pan, grid, coordinates, keyboard and PNG export work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1880,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:03.405Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-b7efa227ace6554442c0",
+          "file": "modes.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "graph responds to actual touch drag and pinch gestures in Chromium",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 941,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:04.670Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-03878f51ee6897313199",
+          "file": "modes.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "programmer signed HEX input, word-size overflow, bases and bits are exact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1880,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:05.312Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-d85fb076322b2b28c1b7",
+          "file": "modes.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "every programmer arithmetic and bitwise operation works with validated inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:05.628Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-179e818cd34b2fea5624",
+          "file": "modes.spec.ts",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "programmer history persists DEC and HEX, supports favorites, reuse, search and deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:07.217Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-588d7454080f61e14ec1",
+          "file": "modes.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "all thirteen converter categories return verified representative values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1837,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:08.595Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-8e43d1286d1bb421a446",
+          "file": "modes.spec.ts",
+          "line": 241,
+          "column": 1
+        },
+        {
+          "title": "converter precision, searchable options, swap, validation and preferences work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1311,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:10.053Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-a60c6a4e6c21adc5f3f4",
+          "file": "modes.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "engineering complex expressions use actual complex arithmetic and domain errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1201,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:10.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-6fea68cd7978fb84868d",
+          "file": "modes.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "engineering matrices add, subtract, multiply, transpose, invert and solve with safe errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2136,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:10.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-53bef33640a9d5d6a8f3",
+          "file": "modes.spec.ts",
+          "line": 300,
+          "column": 1
+        },
+        {
+          "title": "malformed programmer, converter and graph storage recovers without crashes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1406,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:11.329Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-2f3e679147cdde237afd",
+          "file": "modes.spec.ts",
+          "line": 329,
+          "column": 1
+        },
+        {
+          "title": "programmer, converter and engineering copy controls write the actual clipboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1954,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:11.389Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-2e8d0db7a581c87f928b",
+          "file": "modes.spec.ts",
+          "line": 363,
+          "column": 1
+        },
+        {
+          "title": "graph functions evaluate real user expressions, reject domains and persist edits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3230,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:33.653Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-5f1ecf3f33b62646e72b",
+          "file": "modes.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "graph zoom, pan, grid, coordinates, keyboard and PNG export work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6866,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:36.905Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-ca98d213d308734b5c9d",
+          "file": "modes.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "graph responds to actual touch drag and pinch gestures in Chromium",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 117,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 2472,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:39.569Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 117,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-6d2db75582692382613e",
+          "file": "modes.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "programmer signed HEX input, word-size overflow, bases and bits are exact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7096,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:42.070Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-ab18ea896b811ca5d7f7",
+          "file": "modes.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "every programmer arithmetic and bitwise operation works with validated inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17278,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:43.792Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-4c4feee0c0ea80661852",
+          "file": "modes.spec.ts",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "programmer history persists DEC and HEX, supports favorites, reuse, search and deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3084,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:49.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-e6dc2b0256525f202e31",
+          "file": "modes.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "all thirteen converter categories return verified representative values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 9577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:52.308Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-12c69547c717bf5177b2",
+          "file": "modes.spec.ts",
+          "line": 241,
+          "column": 1
+        },
+        {
+          "title": "converter precision, searchable options, swap, validation and preferences work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5490,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:01.106Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-e6787a2878112040a7c7",
+          "file": "modes.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "engineering complex expressions use actual complex arithmetic and domain errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:01.909Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-abb1ea1fdb5bb3567fe2",
+          "file": "modes.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "engineering matrices add, subtract, multiply, transpose, invert and solve with safe errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4692,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:06.630Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-4a5f07632122ff52406f",
+          "file": "modes.spec.ts",
+          "line": 300,
+          "column": 1
+        },
+        {
+          "title": "malformed programmer, converter and graph storage recovers without crashes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3994,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:07.068Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-47b43e603ed0c25199a5",
+          "file": "modes.spec.ts",
+          "line": 329,
+          "column": 1
+        },
+        {
+          "title": "programmer, converter and engineering copy controls write the actual clipboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 364,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 1654,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:11.096Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 364,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-d804fdf4432ab9f10628",
+          "file": "modes.spec.ts",
+          "line": 363,
+          "column": 1
+        },
+        {
+          "title": "graph functions evaluate real user expressions, reject domains and persist edits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2663,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:30.061Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-beffbd2d5eefd520c10e",
+          "file": "modes.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "graph zoom, pan, grid, coordinates, keyboard and PNG export work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 4168,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:32.754Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-da2606d1018f8b829ab3",
+          "file": "modes.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "graph responds to actual touch drag and pinch gestures in Chromium",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 117,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 929,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:35.048Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 117,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-b3e6b23d8ab031e05eaf",
+          "file": "modes.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "programmer signed HEX input, word-size overflow, bases and bits are exact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3974,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:36.024Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-c3061e78f09280244ccc",
+          "file": "modes.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "every programmer arithmetic and bitwise operation works with validated inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 9549,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:36.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-32dcb0ffc79da351feca",
+          "file": "modes.spec.ts",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "programmer history persists DEC and HEX, supports favorites, reuse, search and deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2751,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:40.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-1c83a96f7d549daffe2a",
+          "file": "modes.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "all thirteen converter categories return verified representative values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3973,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:42.842Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-a12d0d2a103fbd1df421",
+          "file": "modes.spec.ts",
+          "line": 241,
+          "column": 1
+        },
+        {
+          "title": "converter precision, searchable options, swap, validation and preferences work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2476,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:44.622Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-b85baccbe8f008cfcc9a",
+          "file": "modes.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "engineering complex expressions use actual complex arithmetic and domain errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3675,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:46.543Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-94a18fca2fcde9ebafd5",
+          "file": "modes.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "engineering matrices add, subtract, multiply, transpose, invert and solve with safe errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:46.842Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-4617e223308464c134bf",
+          "file": "modes.spec.ts",
+          "line": 300,
+          "column": 1
+        },
+        {
+          "title": "malformed programmer, converter and graph storage recovers without crashes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3460,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:47.150Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-077db6c16153c7f3a066",
+          "file": "modes.spec.ts",
+          "line": 329,
+          "column": 1
+        },
+        {
+          "title": "programmer, converter and engineering copy controls write the actual clipboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 364,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 1161,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:50.261Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 364,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-b79fb97e9c8c66a886e3",
+          "file": "modes.spec.ts",
+          "line": 363,
+          "column": 1
+        },
+        {
+          "title": "graph functions evaluate real user expressions, reject domains and persist edits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2196,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:05.970Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-4653a31340c9346de785",
+          "file": "modes.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "graph zoom, pan, grid, coordinates, keyboard and PNG export work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2481,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:08.199Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-4e614155fce85442032f",
+          "file": "modes.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "graph responds to actual touch drag and pinch gestures in Chromium",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 117,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 781,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:08.466Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 117,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-15f2fcbaa135cd32b217",
+          "file": "modes.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "programmer signed HEX input, word-size overflow, bases and bits are exact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:09.295Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-c0473dae0eeb935bdf6b",
+          "file": "modes.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "every programmer arithmetic and bitwise operation works with validated inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7000,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:10.714Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-1b20be21c4953102d1e7",
+          "file": "modes.spec.ts",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "programmer history persists DEC and HEX, supports favorites, reuse, search and deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1861,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:12.178Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-4f13399ded459e1a7423",
+          "file": "modes.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "all thirteen converter categories return verified representative values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3004,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:14.066Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-0f801ff5548db8f41733",
+          "file": "modes.spec.ts",
+          "line": 241,
+          "column": 1
+        },
+        {
+          "title": "converter precision, searchable options, swap, validation and preferences work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2055,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:15.464Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-9f3e908dbe1fa566e0fe",
+          "file": "modes.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "engineering complex expressions use actual complex arithmetic and domain errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1634,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:17.096Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-08264aeaccb9c8e8a2c4",
+          "file": "modes.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "engineering matrices add, subtract, multiply, transpose, invert and solve with safe errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2604,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:17.541Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-45e2599408df5d633ccb",
+          "file": "modes.spec.ts",
+          "line": 300,
+          "column": 1
+        },
+        {
+          "title": "malformed programmer, converter and graph storage recovers without crashes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1655,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:17.740Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-c2930d390d9fc85c6299",
+          "file": "modes.spec.ts",
+          "line": 329,
+          "column": 1
+        },
+        {
+          "title": "programmer, converter and engineering copy controls write the actual clipboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 364,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 835,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:18.758Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 364,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-426a50d9930ba4e38276",
+          "file": "modes.spec.ts",
+          "line": 363,
+          "column": 1
+        },
+        {
+          "title": "graph functions evaluate real user expressions, reject domains and persist edits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2218,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:32.189Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-f26912919d257aae6d07",
+          "file": "modes.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "graph zoom, pan, grid, coordinates, keyboard and PNG export work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2631,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:32.452Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-32188a3a2482f1fa2d65",
+          "file": "modes.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "graph responds to actual touch drag and pinch gestures in Chromium",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1289,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:34.462Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-46aa25f73ba338bc56ce",
+          "file": "modes.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "programmer signed HEX input, word-size overflow, bases and bits are exact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2852,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:35.118Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-592b9e01d76d9574da5e",
+          "file": "modes.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "every programmer arithmetic and bitwise operation works with validated inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8534,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:35.776Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-a2eae36bb77b7cb50570",
+          "file": "modes.spec.ts",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "programmer history persists DEC and HEX, supports favorites, reuse, search and deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2110,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:37.988Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-2587654f276472f39d05",
+          "file": "modes.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "all thirteen converter categories return verified representative values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3316,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:40.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-9408b400925fb654f5a8",
+          "file": "modes.spec.ts",
+          "line": 241,
+          "column": 1
+        },
+        {
+          "title": "converter precision, searchable options, swap, validation and preferences work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1787,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:41.522Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-aa4db071b191c65ee331",
+          "file": "modes.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "engineering complex expressions use actual complex arithmetic and domain errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2601,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:43.343Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-f6dafd5ebd0ae91e2001",
+          "file": "modes.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "engineering matrices add, subtract, multiply, transpose, invert and solve with safe errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:43.482Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-20ea5a766198974e589a",
+          "file": "modes.spec.ts",
+          "line": 300,
+          "column": 1
+        },
+        {
+          "title": "malformed programmer, converter and graph storage recovers without crashes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2293,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:44.330Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-197aadd7b7dd4db5974f",
+          "file": "modes.spec.ts",
+          "line": 329,
+          "column": 1
+        },
+        {
+          "title": "programmer, converter and engineering copy controls write the actual clipboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2374,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:46.010Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-0fa4d90b518ba4bcf34b",
+          "file": "modes.spec.ts",
+          "line": 363,
+          "column": 1
+        },
+        {
+          "title": "graph functions evaluate real user expressions, reject domains and persist edits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3668,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:05.744Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-43669be0a37e183b37b7",
+          "file": "modes.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "graph zoom, pan, grid, coordinates, keyboard and PNG export work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4653,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:09.465Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-8b1078ad33db67952c23",
+          "file": "modes.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "graph responds to actual touch drag and pinch gestures in Chromium",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 117,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 1189,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:12.204Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Real multi-touch injection uses Chromium CDP; other engines exercise pointer panning in the interaction test.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 117,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-b058b185c0ff19dd3b04",
+          "file": "modes.spec.ts",
+          "line": 116,
+          "column": 1
+        },
+        {
+          "title": "programmer signed HEX input, word-size overflow, bases and bits are exact",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5374,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:13.569Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-a30e46cb8ba19bdd263b",
+          "file": "modes.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "every programmer arithmetic and bitwise operation works with validated inputs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17583,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:14.156Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-27b48219d9c6be9806b8",
+          "file": "modes.spec.ts",
+          "line": 178,
+          "column": 1
+        },
+        {
+          "title": "programmer history persists DEC and HEX, supports favorites, reuse, search and deletion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5131,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:19.054Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-24f4f63ef2b9851dc975",
+          "file": "modes.spec.ts",
+          "line": 216,
+          "column": 1
+        },
+        {
+          "title": "all thirteen converter categories return verified representative values",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 8712,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:24.209Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-54a35a6ae7ba353b75ca",
+          "file": "modes.spec.ts",
+          "line": 241,
+          "column": 1
+        },
+        {
+          "title": "converter precision, searchable options, swap, validation and preferences work",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3727,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:28.975Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-c11de314b24a84949e02",
+          "file": "modes.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "engineering complex expressions use actual complex arithmetic and domain errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3660,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:31.848Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-8ecbc8f6d71a56b66efe",
+          "file": "modes.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "engineering matrices add, subtract, multiply, transpose, invert and solve with safe errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5033,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:32.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-2378d7389afcc683bc09",
+          "file": "modes.spec.ts",
+          "line": 300,
+          "column": 1
+        },
+        {
+          "title": "malformed programmer, converter and graph storage recovers without crashes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3651,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:32.970Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-3b493e78144be788539c",
+          "file": "modes.spec.ts",
+          "line": 329,
+          "column": 1
+        },
+        {
+          "title": "programmer, converter and engineering copy controls write the actual clipboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                    "line": 364,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 1117,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:35.575Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Native clipboard permissions are verified in Chromium; browser permission interfaces differ.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/modes.spec.ts",
+                        "line": 364,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6fb5e888906441feedcc-222d5cf90ec4e7fd1389",
+          "file": "modes.spec.ts",
+          "line": 363,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "update.spec.ts",
+      "file": "update.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "PWA update waits for approval and reload preserves saved calculations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2167,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:08:12.647Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae42f1901484d45fa31f-3490779dc712106ccd89",
+          "file": "update.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "PWA update waits for approval and reload preserves saved calculations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Update lifecycle is verified with Chromium service workers.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                    "line": 7,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 2554,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:11.365Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Update lifecycle is verified with Chromium service workers.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                        "line": 7,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae42f1901484d45fa31f-aed6de03e364b8387f87",
+          "file": "update.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "PWA update waits for approval and reload preserves saved calculations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Update lifecycle is verified with Chromium service workers.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                    "line": 7,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 786,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:09:50.704Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Update lifecycle is verified with Chromium service workers.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                        "line": 7,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae42f1901484d45fa31f-11402edb29b96f1fc480",
+          "file": "update.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "PWA update waits for approval and reload preserves saved calculations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Update lifecycle is verified with Chromium service workers.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                    "line": 7,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "iphone",
+              "projectName": "iphone",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 480,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:19.436Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Update lifecycle is verified with Chromium service workers.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                        "line": 7,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae42f1901484d45fa31f-54133d4cd8953724aadc",
+          "file": "update.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "PWA update waits for approval and reload preserves saved calculations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "android",
+              "projectName": "android",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2816,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:10:46.658Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ae42f1901484d45fa31f-6065c0b3554c7af56f1b",
+          "file": "update.spec.ts",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "PWA update waits for approval and reload preserves saved calculations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Update lifecycle is verified with Chromium service workers.",
+                  "location": {
+                    "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                    "line": 7,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "ipad",
+              "projectName": "ipad",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 2,
+                  "status": "skipped",
+                  "duration": 696,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-29T17:11:36.760Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Update lifecycle is verified with Chromium service workers.",
+                      "location": {
+                        "file": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/e2e/update.spec.ts",
+                        "line": 7,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae42f1901484d45fa31f-ed2f027641fe8be98cd2",
+          "file": "update.spec.ts",
+          "line": 6,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T17:07:53.457Z",
+    "duration": 224639.938,
+    "expected": 106,
+    "skipped": 20,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

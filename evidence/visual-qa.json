@@ -1,0 +1,42 @@
+{
+  "views": [
+    {
+      "file": "website-desktop-dark.png",
+      "size": [
+        1440,
+        1233
+      ],
+      "review": "Inspected rendered view: clear controls and hierarchy, no overlapping layout or horizontal clipping. History list intentionally scrolls."
+    },
+    {
+      "file": "website-desktop-light.png",
+      "size": [
+        1440,
+        1233
+      ],
+      "review": "Inspected rendered view: clear controls and hierarchy, no overlapping layout or horizontal clipping. History list intentionally scrolls."
+    },
+    {
+      "file": "website-mobile-dark.png",
+      "size": [
+        390,
+        2076
+      ],
+      "review": "Inspected rendered view: clear controls and hierarchy, no overlapping layout or horizontal clipping. History list intentionally scrolls."
+    },
+    {
+      "file": "website-graph.png",
+      "size": [
+        1440,
+        1025
+      ],
+      "review": "Inspected rendered view: clear controls and hierarchy, no overlapping layout or horizontal clipping. History list intentionally scrolls."
+    }
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "verifiedBy": "Actual Playwright screenshots and visual inspection",
+  "physicalDevicesVerified": false
+}

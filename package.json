@@ -1,0 +1,49 @@
+{
+  "name": "calc-pro",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright show-report",
+    "check": "npm run lint && npm run test && npm run build",
+    "browsers:install": "node scripts/install-browsers.mjs",
+    "desktop:dev": "electron desktop/main.cjs",
+    "desktop:package": "npm run build && npm run desktop:runtime && node scripts/package-desktop.mjs",
+    "test:desktop": "node scripts/test-desktop.mjs",
+    "desktop:runtime": "node desktop/install-runtime.mjs",
+    "test:subpath": "node scripts/test-subpath.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@electron/packager": "20.3.0",
+    "@eslint/js": "9.39.5",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "45.1.0",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "16.5.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.5",
+    "vite-plugin-pwa": "2.0.0",
+    "vitest": "5.0.5"
+  },
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  }
+}

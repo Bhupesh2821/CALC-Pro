@@ -1,0 +1,1 @@
+Original supplied ZIP: existing 50 tests passed. Added reproduction suite: 3 tests passed confirming defects: 1e-20 and sin(1e-20 RAD) zeroed; computed zero denominator 1/(2-2) mislabeled Overflow; 8-bit HEX digit accumulation 801 incorrectly FF (expected 1). Original files preserved in CALC-Pro.zip. Executed 2026-10-27.

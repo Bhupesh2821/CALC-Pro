@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "/calc/",
+  "checks": [
+    "relative asset loading",
+    "service worker scoped to /calc/",
+    "offline reload",
+    "real scientific calculation"
+  ],
+  "errors": []
+}

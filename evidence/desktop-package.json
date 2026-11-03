@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "electronVersion": "45.1.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "app": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/release/desktop/CALC Pro-darwin-arm64/CALC Pro.app",
+  "zip": "/Users/prabhuram04yahoo.com/Documents/Bhupesh/Projects/CALC-Pro/release/CALC-Pro-2.0.0-macOS-arm64.zip",
+  "signature": "ad-hoc",
+  "notarized": false
+}
